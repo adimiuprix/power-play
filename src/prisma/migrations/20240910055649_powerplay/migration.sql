@@ -14,7 +14,8 @@ CREATE TABLE "User" (
     "lastName" TEXT,
     "username" TEXT,
     "languageCode" TEXT NOT NULL,
-    "isPremium" BOOLEAN
+    "isPremium" BOOLEAN,
+    "lastClaimed" TIMESTAMP(3)
 );
 
 -- CreateTable
